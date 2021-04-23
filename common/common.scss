@@ -1,0 +1,22 @@
+.category-navigation-outlet,
+.tag-navigation-outlet {
+  margin-top: 0.25em;
+  margin-bottom: 1em;
+}
+
+.custom-box-groups {
+  margin: 0.5em 0 0;
+  h4 {
+    display: none;
+  }
+  .custom-box-group {
+    li a {
+      text-transform: capitalize;
+      padding: 0.5em 0.75em;
+    }
+  }
+}
+
+.custom-box-groups + .custom-dropdown-groups {
+  margin-top: 0.75em; // a little extra space when both types are stacked
+}
