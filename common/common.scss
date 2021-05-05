@@ -20,3 +20,9 @@
 .custom-box-groups + .custom-dropdown-groups {
   margin-top: 0.75em; // a little extra space when both types are stacked
 }
+
+.custom-box-group {
+  li {
+    text-transform: capitalize;
+  }
+}
