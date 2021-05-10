@@ -23,6 +23,7 @@
 
 .custom-box-group {
   li {
-    text-transform: capitalize;
+    text-transform: uppercase;
+    font-size: $font-down-1;
   }
 }
