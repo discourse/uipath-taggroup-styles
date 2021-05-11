@@ -11,19 +11,13 @@
   }
   .custom-box-group {
     li a {
-      text-transform: capitalize;
       padding: 0.5em 0.75em;
+      text-transform: uppercase;
+      font-size: $font-down-1;
     }
   }
 }
 
 .custom-box-groups + .custom-dropdown-groups {
   margin-top: 0.75em; // a little extra space when both types are stacked
-}
-
-.custom-box-group {
-  li {
-    text-transform: uppercase;
-    font-size: $font-down-1;
-  }
 }
